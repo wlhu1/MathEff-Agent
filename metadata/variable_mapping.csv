@@ -1,0 +1,26 @@
+role,construct,PISA_variable_code,analysis_stage
+outcome,Mathematics achievement,PV1MATH-PV10MATH,MRLE and DML
+system,PISA system/economy,CNT,MRLE and DML
+weight,PISA final student weight,W_FSTUWT,MRLE profile and DML
+replicate_weight,PISA Fay-BRR replicate weights,W_FSTURWT1-W_FSTURWT80,Targeted Fay-BRR
+reference,Gender,ST004D01T,T11 MRLE and DML controls
+reference,Grade,ST001D01T,T11 MRLE and DML controls
+reference,Birth month,ST003D02T,T11 MRLE and DML controls
+reference,Birth year,ST003D03T,T11 MRLE and DML controls
+reference,Economic social and cultural status,ESCS,T11 MRLE and DML controls
+reference,ICT resources,ICTRES,T11 MRLE and DML controls
+reference,ICT availability at school,ICTSCH,T11 MRLE and DML controls
+reference,ICT availability outside school,ICTHOME,T11 MRLE and DML controls
+reference,Quality of ICT access,ICTQUAL,T11 MRLE and DML controls
+reference,Exposure to formal and applied mathematics tasks,EXPOFA,T11 MRLE and DML controls
+reference,Exposure to mathematical reasoning and 21st-century tasks,EXPO21ST,T11 MRLE and DML controls
+focal,Mathematics self-efficacy,MATHEFF,DML
+focal,Mathematics anxiety,ANXMAT,DML
+focal,Growth mindset,GROSAGR,DML
+focal,Disciplinary climate in mathematics,DISCLIM,DML
+focal,Quality of student-teacher relationships,RELATST,DML
+focal,Cognitive activation in mathematics,COGACMCO,DML
+focal,Frequency of weekday ICT activity,ICTWKDY,DML
+focal,Self-efficacy in digital competencies,ICTEFFIC,DML
+sensitivity,Home possessions,HOMEPOS,Benchmark sensitivity only
+sensitivity,Mathematics homework time,ST296Q01JA,Benchmark sensitivity only

@@ -1,0 +1,23 @@
+{
+  "evidence_version": "TARGETED_CORE3_FINAL_2026-08-29",
+  "generated_at": "2026-08-29T00:00:00+08:00",
+  "scope": "MATHEFF, ANXMAT, and ICTWKDY only",
+  "equal_system": [
+    { "factor": "MATHEFF", "single": { "estimate": 0.3015747741451939, "ci_low": 0.2894142032061495, "ci_high": 0.3137353450842383 }, "mutual": { "estimate": 0.2219375999068732, "ci_low": 0.2105275672723888, "ci_high": 0.2333476325413576 }, "pv_sign_consistency": "10/10" },
+    { "factor": "ANXMAT", "single": { "estimate": -0.2006832006874256, "ci_low": -0.2111041884362712, "ci_high": -0.1902622129385799 }, "mutual": { "estimate": -0.1015150711680997, "ci_low": -0.1110108612391332, "ci_high": -0.0920192810970662 }, "pv_sign_consistency": "10/10" },
+    { "factor": "ICTWKDY", "single": { "estimate": -0.1131261765068726, "ci_low": -0.1233103062383818, "ci_high": -0.1029420467753634 }, "mutual": { "estimate": -0.0928226034330953, "ci_low": -0.1017524077198022, "ci_high": -0.0838927991463883 }, "pv_sign_consistency": "10/10" }
+  ],
+  "brr_fay": [
+    { "factor": "MATHEFF", "estimate": 0.2603795385444948, "sampling_se": 0.0119526556830858, "total_se": 0.0119526556830858, "ci_low": 0.2368442629190428, "ci_high": 0.2839148141699469, "successful_replicates": 800, "plausible_values": 10 },
+    { "factor": "ANXMAT", "estimate": -0.1144306447921291, "sampling_se": 0.0097757993270155, "total_se": 0.0097757993270155, "ci_low": -0.1337146432144146, "ci_high": -0.0951466463698437, "successful_replicates": 800, "plausible_values": 10 },
+    { "factor": "ICTWKDY", "estimate": -0.1117244243577141, "sampling_se": 0.008893525893474, "total_se": 0.008893525893474, "ci_low": -0.1292826498975592, "ci_high": -0.0941661988178689, "successful_replicates": 800, "plausible_values": 10 }
+  ],
+  "caveats": {
+    "equal_system": "Alternative equal-system estimand; targeted core-three-factor sensitivity only.",
+    "brr_fay": "Final 86,125-student sample; MRLE and cross-fitted nuisance functions were held fixed, so this is targeted orthogonal-score reweighting rather than full-pipeline replicate-weight propagation."
+  },
+  "provenance": [
+    { "source_file": "21_FINAL_EXPERIMENT_INTEGRATION/09_WEIGHTING_EQUAL_SYSTEM/equal_system_core3_final.csv", "sha256": "2EBDA1D1BEE9D7906BAD2D9EA5EE2AE6D959D72FEF8C091B0DE1E7453EF76882" },
+    { "source_file": "21_FINAL_EXPERIMENT_INTEGRATION/10_FINAL_FAY_BRR/07_CLUSTER_VS_BRR_COMPARISON.csv", "sha256": "553B9FD27A387904FFA8B25D875DC4BEB1C6665726BCF8E99B4EA2DD7DCB699C" }
+  ]
+}

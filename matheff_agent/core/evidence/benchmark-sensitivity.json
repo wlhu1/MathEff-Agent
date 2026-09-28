@@ -1,0 +1,12 @@
+{
+  "evidence_version": "T11_BENCHMARK_FINAL_2026-08-25",
+  "generated_at": "2026-08-25T00:00:00+08:00",
+  "reference": "F13 on the fixed 122,785-student comparison sample",
+  "rows": [
+    { "benchmark": "T11", "role": "PRIMARY", "pearson": 0.983465355298721, "spearman": 0.981408454007651, "mae": 0.141090295808034, "rmse": 0.180286547606245, "sign_agreement": 0.941527873925968, "quartile_agreement": 0.850719550433685, "profile_agreement": 0.941527873925968, "median_rank_change": 3657.4, "p90_rank_change": 11358.3 },
+    { "benchmark": "F12_NO_HOMEPOS", "role": "SENSITIVITY", "pearson": 0.983666150616086, "spearman": 0.981649633217949, "mae": 0.140153311363395, "rmse": 0.179211154934425, "sign_agreement": 0.941858533208454, "quartile_agreement": 0.851588549089873, "profile_agreement": 0.941858533208454, "median_rank_change": 3636.6, "p90_rank_change": 11295.94 },
+    { "benchmark": "F12_NO_HOMEWORK", "role": "SENSITIVITY", "pearson": 0.999674936352898, "spearman": 0.999616829096838, "mae": 0.019356276176259, "rmse": 0.0252544318203772, "sign_agreement": 0.99189477542045, "quartile_agreement": 0.979218959970681, "profile_agreement": 0.99189477542045, "median_rank_change": 504.6, "p90_rank_change": 1478.8 },
+    { "benchmark": "P8", "role": "PARSIMONIOUS_SENSITIVITY", "pearson": 0.982927767423943, "spearman": 0.98080892968434, "mae": 0.14333497908439, "rmse": 0.183193996256719, "sign_agreement": 0.940589648572709, "quartile_agreement": 0.848374801482266, "profile_agreement": 0.940589648572709, "median_rank_change": 3711.2, "p90_rank_change": 11564.2 }
+  ],
+  "provenance": [{ "source_file": "04_STAGE2_RESULTS_STRUCTURE/benchmark_sensitivity_final.csv", "sha256": "0DDD867B22BA1DB4B135F263AC08C1FFB34769AAE95A4BCF318C6C86F86D370F" }]
+}

@@ -1,0 +1,18 @@
+{
+  "evidence_version": "T11_FINAL_FROZEN_2026-08-25",
+  "generated_at": "2026-08-25T00:00:00+08:00",
+  "benchmark": "T11",
+  "mrle_sample": { "students": 123949, "systems": 24, "schools": 6108 },
+  "diagnostic_sample": { "students": 86125, "systems": 19, "schools": 5058 },
+  "plausible_values": 10,
+  "primary_dml_estimand": "population-weighted DML-adjusted association",
+  "primary_dml_outcome": "context-adjusted MRLE",
+  "causal_interpretation_permitted": false,
+  "profile_interpretation": "descriptive across plausible-value-specific results",
+  "provenance": [
+    { "source_file": "05_STAGE3_RESULTS_TABLES_FIGURES/source_data/Table3_Final_DML.csv", "sha256": "32752CE2A960744A95C6FF03700156B28EF3A1D630842AD17DF612F07A3D4212" },
+    { "source_file": "04_STAGE2_RESULTS_STRUCTURE/benchmark_sensitivity_final.csv", "sha256": "0DDD867B22BA1DB4B135F263AC08C1FFB34769AAE95A4BCF318C6C86F86D370F" },
+    { "source_file": "04_STAGE2_RESULTS_STRUCTURE/equal_system_core3_final.csv", "sha256": "2EBDA1D1BEE9D7906BAD2D9EA5EE2AE6D959D72FEF8C091B0DE1E7453EF76882" },
+    { "source_file": "04_STAGE2_RESULTS_STRUCTURE/brr_fay_core3_final.csv", "sha256": "428BB49CAFEA87BC7B3DE00AEE91C2698A5CFC649CF37D87822DBC71B6D1B24E" }
+  ]
+}

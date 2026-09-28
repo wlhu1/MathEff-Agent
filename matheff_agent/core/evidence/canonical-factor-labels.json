@@ -1,0 +1,11 @@
+{
+  "MATHEFF": { "label": "Mathematics self-efficacy", "domain": "Psychological" },
+  "ANXMAT": { "label": "Mathematics anxiety", "domain": "Psychological" },
+  "GROSAGR": { "label": "Growth mindset", "domain": "Psychological" },
+  "DISCLIM": { "label": "Disciplinary climate in mathematics", "domain": "Classroom" },
+  "RELATST": { "label": "Quality of student–teacher relationships", "domain": "Classroom" },
+  "COGACMCO": { "label": "Cognitive activation in mathematics (encouraging mathematical thinking)", "figure_label": "Cognitive activation in mathematics", "domain": "Classroom" },
+  "ICTWKDY": { "label": "Frequency of weekday ICT activity", "domain": "Digital-learning" },
+  "ICTEFFIC": { "label": "Self-efficacy in digital competencies", "domain": "Digital-learning" },
+  "provenance": { "source_file": "05_STAGE3_RESULTS_TABLES_FIGURES/source_data/CANONICAL_FACTOR_LABELS.csv", "sha256": "7AF7DD90D146D5699A162DA9EABBE575B1C28CFD296F9C351F9FD07E064F0D07" }
+}

@@ -1,0 +1,19 @@
+{
+  "evidence_version": "T11_DML_FULL8_FINAL_2026-08-25",
+  "generated_at": "2026-08-25T00:00:00+08:00",
+  "sample": { "students": 86125, "systems": 19, "schools": 5058 },
+  "outcome": "context-adjusted MRLE",
+  "estimand": "population-weighted DML-adjusted association per 1 SD of the standardized factor",
+  "caveat": "Associational evidence; not a causal, mediation, diagnostic, risk, protective, or intervention estimate.",
+  "factors": [
+    { "factor": "MATHEFF", "domain": "Psychological", "label": "Mathematics self-efficacy", "single": { "estimate": 0.3507334065604774, "ci_low": 0.3277859056649311, "ci_high": 0.3736809074560237, "pv_sign_consistency": "10/10" }, "mutual": { "estimate": 0.2603795385444948, "ci_low": 0.2365681854460133, "ci_high": 0.2841908916429764, "pv_sign_consistency": "10/10" } },
+    { "factor": "ANXMAT", "domain": "Psychological", "label": "Mathematics anxiety", "single": { "estimate": -0.2254383354953379, "ci_low": -0.244258503735621, "ci_high": -0.2066181672550549, "pv_sign_consistency": "10/10" }, "mutual": { "estimate": -0.1144306447921291, "ci_low": -0.1347315318827748, "ci_high": -0.0941297577014835, "pv_sign_consistency": "10/10" } },
+    { "factor": "GROSAGR", "domain": "Psychological", "label": "Growth mindset", "single": { "estimate": 0.1261201909125879, "ci_low": 0.1038075005961891, "ci_high": 0.1484328812289868, "pv_sign_consistency": "10/10" }, "mutual": { "estimate": 0.061229329953682, "ci_low": 0.0407009243821887, "ci_high": 0.0817577355251753, "pv_sign_consistency": "10/10" } },
+    { "factor": "DISCLIM", "domain": "Classroom", "label": "Disciplinary climate in mathematics", "single": { "estimate": 0.0883313379491015, "ci_low": 0.0671498438045141, "ci_high": 0.1095128320936889, "pv_sign_consistency": "10/10" }, "mutual": { "estimate": 0.0123608516443918, "ci_low": -0.0090960957958568, "ci_high": 0.0338177990846404, "pv_sign_consistency": "9/10" } },
+    { "factor": "RELATST", "domain": "Classroom", "label": "Quality of student–teacher relationships", "single": { "estimate": 0.0777786411606396, "ci_low": 0.0570900792644446, "ci_high": 0.0984672030568345, "pv_sign_consistency": "10/10" }, "mutual": { "estimate": 0.0147973416318283, "ci_low": -0.004188404115706, "ci_high": 0.0337830873793626, "pv_sign_consistency": "10/10" } },
+    { "factor": "COGACMCO", "domain": "Classroom", "label": "Cognitive activation in mathematics (encouraging mathematical thinking)", "single": { "estimate": -0.0378274207856257, "ci_low": -0.0593326406215027, "ci_high": -0.0163222009497487, "pv_sign_consistency": "10/10" }, "mutual": { "estimate": -0.0650700351626374, "ci_low": -0.085871556558853, "ci_high": -0.0442685137664217, "pv_sign_consistency": "10/10" } },
+    { "factor": "ICTWKDY", "domain": "Digital-learning", "label": "Frequency of weekday ICT activity", "single": { "estimate": -0.1475435439275781, "ci_low": -0.1681156057321796, "ci_high": -0.1269714821229766, "pv_sign_consistency": "10/10" }, "mutual": { "estimate": -0.1117244243577141, "ci_low": -0.13086182128107, "ci_high": -0.0925870274343582, "pv_sign_consistency": "10/10" } },
+    { "factor": "ICTEFFIC", "domain": "Digital-learning", "label": "Self-efficacy in digital competencies", "single": { "estimate": 0.0453075798879725, "ci_low": 0.027745056730422, "ci_high": 0.0628701030455231, "pv_sign_consistency": "10/10" }, "mutual": { "estimate": 0.0105996038895219, "ci_low": -0.0070256389798265, "ci_high": 0.0282248467588703, "pv_sign_consistency": "10/10" } }
+  ],
+  "provenance": [{ "source_file": "05_STAGE3_RESULTS_TABLES_FIGURES/source_data/Table3_Final_DML.csv", "sha256": "32752CE2A960744A95C6FF03700156B28EF3A1D630842AD17DF612F07A3D4212" }]
+}

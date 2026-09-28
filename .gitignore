@@ -1,0 +1,46 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# Data and generated outputs
+data/
+inputs/
+outputs/
+*.parquet
+*.sav
+*.sas7bdat
+*.zsav
+*.dta
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node and build products
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.cache/
+
+# Logs, QA artifacts, and operating-system files
+*.log
+logs/
+artifacts/
+qa/
+.DS_Store
+Thumbs.db

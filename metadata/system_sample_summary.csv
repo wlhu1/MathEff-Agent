@@ -1,0 +1,25 @@
+system_economy,PISA_code,MRLE_N,MRLE_schools,DML_N,DML_schools,inclusion_status,exclusion_reason
+Albania,ALB,2908,250,0,0,Excluded,Complete system-level nonavailability of ICTWKDY in the T11-eligible sample
+Argentina,ARG,5985,434,4587,416,Included,
+Australia,AUS,11437,735,10689,734,Included,
+Bulgaria,BGR,3812,198,3240,196,Included,
+Brazil,BRA,5938,563,4892,540,Included,
+Brunei Darussalam,BRN,4780,54,0,0,Excluded,Complete system-level nonavailability of RELATST in the T11-eligible sample
+Chile,CHL,4303,212,3703,210,Included,
+Germany,DEU,4358,240,3727,239,Included,
+Dominican Republic,DOM,2924,236,2077,217,Included,
+United Kingdom,GBR,8869,442,7663,441,Included,
+Jordan,JOR,4710,254,3936,252,Included,
+Morocco,MAR,4037,175,0,0,Excluded,Complete system-level nonavailability of RELATST in the T11-eligible sample
+Malta,MLT,2439,45,2155,45,Included,
+Malaysia,MYS,6079,198,0,0,Excluded,Complete system-level nonavailability of RELATST in the T11-eligible sample
+Panama,PAN,1929,178,1332,162,Included,
+Romania,ROU,5924,256,5330,254,Included,
+Saudi Arabia,SAU,4874,192,4292,191,Included,
+Singapore,SGP,6424,164,6288,164,Included,
+Slovak Republic,SVK,4660,265,4165,264,Included,
+Chinese Taipei,TAP,5588,182,5453,182,Included,
+Thailand,THA,7954,279,0,0,Excluded,Complete system-level nonavailability of MATHEFF and ANXMAT in the T11-eligible sample
+Türkiye,TUR,6893,196,6534,196,Included,
+Uruguay,URY,3348,210,2536,205,Included,
+United States,USA,3776,150,3526,150,Included,

@@ -1,0 +1,24 @@
+model: ExtraTreesRegressor
+n_estimators: 300
+min_samples_leaf: 10
+max_features: 0.8
+n_folds: 5
+random_seed: 2026
+fold_strategy: StratifiedGroupKFold
+stratification_level: system
+group_level: school
+zero_school_leakage_required: true
+weight: W_FSTUWT
+plausible_values: 10
+focal_factors:
+  - MATHEFF
+  - ANXMAT
+  - GROSAGR
+  - DISCLIM
+  - RELATST
+  - COGACMCO
+  - ICTWKDY
+  - ICTEFFIC
+estimands:
+  - single_factor
+  - mutually_adjusted
